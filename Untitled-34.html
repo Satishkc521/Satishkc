@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Satish K.C.</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            background: linear-gradient(135deg, #333346, #27489b);
+            color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            color: white;
+            clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+        }
+
+        header h1 {
+            font-size: 60px;
+            letter-spacing: 4px;
+            font-weight: 900;
+            text-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+        }
+
+        header p {
+            font-size: 22px;
+            margin-top: 20px;
+            color: #d3d3d3;
+        }
+
+        /* Section */
+        section {
+            margin: 30px auto;
+            padding: 40px;
+            max-width: 1000px;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+            transform: scale(1);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        section:hover {
+            transform: scale(1.02);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.7);
+        }
+
+        section h2 {
+            font-size: 36px;
+            color: #ffd700;
+            border-bottom: 4px solid #ffd700;
+            display: inline-block;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        section p {
+            font-size: 20px;
+            color: #eaeaea;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            font-size: 20px;
+            margin: 10px 0;
+            padding-left: 30px;
+            position: relative;
+            color: #eaeaea;
+        }
+
+        ul li::before {
+            content: "🌟";
+            position: absolute;
+            left: 0;
+            color: #ffd700;
+            font-size: 22px;
+        }
+
+        /* Footer */
+        footer {
+            background: linear-gradient(135deg, #24243e, #0f0c29);
+            text-align: center;
+            padding: 50px 20px;
+            color: white;
+            clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+        }
+
+        footer h3 {
+            font-size: 28px;
+            margin-bottom: 15px;
+            color: #ffd700;
+        }
+
+        footer a {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 18px;
+            margin: 0 10px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        footer a:hover {
+            color: #e8110d;
+        }
+
+        /* Contact and Social Icons */
+        .contact-info {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            margin: 0 15px;
+            color: #ffd700;
+            font-size: 30px;
+            transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+        }
+
+        .social-icons a:hover {
+            color: #55a7ff;
+            transform: translateY(-5px) scale(1.2);
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        header, section, footer {
+            animation: fadeIn 1.5s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Satish K.C.</h1>
+        <p>Tech Enthusiast | Business Innovator | Lifelong Learner</p>
+    </header>
+
+    <section>
+        <h2>Introduction</h2>
+        <p>Hi there! I’m Satish K.C., a passionate tech enthusiast from Kathmandu, Nepal. I’m currently pursuing my Bachelor's in Business Information Management at Morgan College. My mission is to merge the worlds of technology and business to create impactful solutions.</p>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <p>I started my educational journey at Holy Garden Boarding High School and completed my +2 in Computer Science from Samriddhi College. Now, I’m diving deep into business and technology as a part of my Bachelor’s degree.</p>
+    </section>
+
+    <section>
+        <h2>Professional Experience</h2>
+        <p>During my internships at tech companies, I gained hands-on experience in IT solutions, business data analysis, and project management. These roles helped me develop a problem-solving mindset and a keen eye for innovation.</p>
+    </section>
+
+    <section>
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Playing Chess</li>
+            <li>Exploring new destinations</li>
+            <li>Photography</li>
+            <li>Listening to soulful music</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Goals</h2>
+        <p>My long-term vision is to become a tech leader, inspiring others to embrace innovation. I aim to harness technology to empower businesses and drive change in the modern world.</p>
+    </section>
+
+    <footer>
+        <h3>Get in Touch</h3>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:kcsatish61@example.com">kcsatish61@example.com</a></p>
+            <p>Phone: <a href="tel:+9779860242096">+977-9860242096</a></p>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com" target="_blank">🔗</a>
+            <a href="https://www.facebook.com" target="_blank">📘</a>
+            <a href="https://www.instagram.com" target="_blank">📷</a>
+        </div>
+    </footer>
+</body>
+
+</html>
